@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    /*console.log("Задание №5")
+      var arr =[], number =5, Sum =0
+      for (i=0; i<number; i++){
+        arr[i]=prompt("Введите arr["+i+"]:")
+        Sum=Sum+Number(arr[i])
+        console.log("arr["+i+"]="+arr[i])
+        }
+        console.log("Ответ: "+Sum)*/
+
+    /*console.log("Задание №6")
+      var len= +prompt("Введите желаемую длинну массива arr:")
+      var a= new Array(len), P=1
+      for(j=0; j<len; j++){
+        a[j]= prompt("Введите a["+j+"]:")
+        console.log(a[j])
+        P=P*Number(a[j])
+      }
+        console.log("Ответ: "+P)
+      console.log("Ответ: "+a)*/
+
+    /*console.log("Задание №7")
+      var l= +prompt("Введите желаемую длинну массива arr:"), Sum=0, Av
+      var arr= new Array(l)
+      for(i=0; i<l; i++){
+        arr[i]=prompt("Введите arr["+i+"]:")
+        console.log(arr[i])
+        if(Number(arr[i])<0){
+          Sum=Sum+Number(arr[i])
+          Av=Sum/arr[i].length
+        }
+      }
+      console.log(Av)*/
+
+    /*console.log("Задание №8")
+      var l= +prompt("Введите желаемую длинну массива arr:"), key =+prompt("Введите желаемый ключ: ")
+      var arr= new Array(l), arr1=[], h=0
+      for(i=0; i<l; i++){
+        arr[i]=prompt("Введите arr["+i+"]:")
+        console.log(arr[i])
+          if(arr[i]==key){
+            arr1[h] =i
+            h++
+          }
+      }
+      a1 =arr1.length
+      if (a1==0)
+        console.log("Совпадений не найдено")
+
+      else
+        console.log("Индексы совпадений: " +arr1)*/
+
+    /*console.log("Задание №9")
+      var l= +prompt("Введите желаемую длинну массива arr:"), arr= new Array(l), arr1 =[]
+      for(i=0; i<l; i++){
+        arr[i]=prompt("Введите arr["+i+"]:")
+          if(arr[i]<0){
+          arr1.push(arr[i])
+          console.log(arr)
+          console.log(arr1)
+        }
+      }*/
+
+      /*console.log("Задание №10")
+      var l= +prompt("Введите желаемую длинну массива arr:"), arr= [l], arr1 =[l], arr2= []
+        for(i=0; i<l; i++){
+        arr[i]=Math.floor(Math.random()*10)
+        arr1[i]=+prompt("Введите arr["+i+"]:")
+        arr2[i]=arr[i]+arr1[i]
+      }
+        console.log("Массив со случ. числами: "+arr)
+        console.log("Массив с введенными числами:"+arr1)
+        console.log("Массив сост. из 2-х пред.:"+arr2)*/
+
+      console.log("Задание №11")
+        var l= +prompt("Введите желаемую длинну массива arr:")
+        var min= 0, max = 0
+        var arr =[]
+        for (i=0; i<l; i++){
+           arr[i]=Math.floor(Math.random()*10-5)}
+        for (i=0;i<5;i++){
+          if(arr[i]>0&arr[i]>max)
+            max= arr[i]
+          else if(arr[i]<0&arr[i]<min) {
+
+          min= arr[i]
+          }
+        }
+      console.log(arr)
+      console.log("Наименьшее число " + min)
+      console.log("Наибольшее число " + max)
+  </script>
+</body>
+</html>
