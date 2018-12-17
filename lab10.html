@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+  console.log("Задание №1")
+    var i=0
+    while (i<3) {
+      i++
+    }
+    console.log("Число i= "+ i)
+  console.log("Задание №2")
+    var ch =100
+    while (ch>0) {
+      console.log(ch)
+      ch-=20
+    }
+  console.log("Задание №3")
+     var a= [], Sum=0
+     do {
+       a=+prompt("Введите чилсло: ")
+       Sum+=a
+     } while (a!=0)
+     console.log(Sum)
+  console.log("Задание №4")
+    var i =10
+    while (i<=15) {
+      console.log(i)
+      i++
+    }
+  console.log("Задание №5")
+    var i =10
+    for(i=10; i<=15; i++){
+      console.log(i)
+    }
+  console.log("Задание №6")
+    var val, s = 0
+    do{
+        val= +prompt("Введите число val:")
+          s+=Math.pow(val,2)
+          console.log(val)
+      } while(s<=100)
+        console.log("s = "+ s);
+
+
+  console.log("Задание №7")
+    var val, s1 = 0, s2 = 0
+    do{
+      val= +prompt("Введите число val:")
+      if(val<0){
+        s1+=Math.pow(val,2)
+        console.log("s1 = "+ s1)
+      }
+      else if(val>0){
+        s2+=val
+        console.log("s2 = "+ s2)
+      }
+    } while(s1<100&s2<100)
+  </script>
+</body>
+</html>
