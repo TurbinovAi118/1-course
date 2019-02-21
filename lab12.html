@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+//Задание №1
+  var student= {}
+      student.name="muhammed"
+      student,surname="petrov"
+      student.name="vasya"
+      delete student.name
+
+
+//Задание №2
+  var rating = {
+    "Вася": 5,
+    "Петя": 4,
+    "Асие": 2
+      }
+    var a= Object.values(rating)
+    var sum=0
+    for (i=0; i<a.length; i++){
+        sum=sum+a[i]
+      }
+    var av=sum/a.length
+    console.log(av)
+
+//Задание №3
+  var salaries = {
+    "Вася": 500,
+    "Петя": 40,
+    "Асие": 200
+      };
+  var b=Object.values(salaries)
+  var max=0
+  for (var i=0; i<b.length; i++) {
+      if (max < b[i]) max = b[i]
+    }
+    if(max==salaries["Вася"])
+      console.log("Самая высокая зарплата у Васи "+ salaries["Вася"])
+    else if (max==salaries["Петя"])
+      console.log("Самая высокая зарплата у Пети "+ salaries["Петя"])
+    else if (max==salaries["Асие"])
+      console.log("Самая высокая зарплата у Асие "+ salaries["Асие"])
+
+
+//Задание №4
+  var country = {
+    countryName: "USA",
+    pupulationSize: 327631340,
+    countryArea: 9826675,
+    capital:{
+      capitalName: "Washington",
+      foundationYear: 1761
+        },
+    populationDestiny: pD
+    }
+  var pS=country["pupulationSize"]
+  var cA=country["countryArea"]
+  var pD=cA/pS
+  country.populationDestiny=pD
+
+  </script>
+</body>
+</html>
